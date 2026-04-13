@@ -1,4 +1,5 @@
 
+
 # **** Консольная касса магазина*****
 
 inventory = []  
@@ -148,7 +149,7 @@ def main():
         elif choice == "6":
             show_settings()
         elif choice == "7":
-            print(f"До скорой встречи.  в другой раз приходите, {kasir_name}!")
+            print(f"До скорой встречи вам.  в другой раз приходите, {kasir_name}!")
             break 
         else:
             print("Неверный ввод, попробуйте снова.")
@@ -156,3 +157,4 @@ def main():
 if __name__ == "__main__":
     main()
     
+ 
